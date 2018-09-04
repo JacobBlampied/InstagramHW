@@ -1,0 +1,31 @@
+all_content {
+  display: flex;
+  flex-direction: row;
+}
+
+image_container {
+  float:left;
+}
+
+signup_container {
+  /* padding: 0;
+  align-items: center;
+  flex-direction: column; */
+  float:inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+signup_container div {
+  text-align: center;
+}
+
+footer ul {
+padding: 0;
+list-style: none;
+}
+
+footer li {
+  display: inline;
+  margin: 5px;
+}
